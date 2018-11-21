@@ -6,6 +6,7 @@ class ApplicationController < ActionController::Base
 
 	def hi
 		puts "hi"
+		puts "Them vao branch1"
 	end
 end
 
