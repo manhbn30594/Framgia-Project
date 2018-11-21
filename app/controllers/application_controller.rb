@@ -3,5 +3,17 @@ class ApplicationController < ActionController::Base
 	def hello
 		render html: "hello, world!"
 	end
+
+	def hi
+		puts "hi"
+		puts "them vao branch2"
+		puts "Them vao branch1"
+	end
+	def themvao
+		puts"hello"
+		
+	end
+
+
 end
 
